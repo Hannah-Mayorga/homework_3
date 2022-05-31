@@ -1,0 +1,75 @@
+footer {
+    height: 455px;
+    background-color: #ee4367;
+    color: #ffff;
+  
+    .logo {
+        margin: 0 auto;
+        width: 92px;
+        height: 42px;
+        background-image: url(../images/logo-white.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
+
+    .centered-footer {
+        width: 100%;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 25px;
+      //  background-color: yellow;
+      //  color: #ffff;
+
+    }
+
+    .signup {
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        input {
+            height: 100%;
+            width: 529px;
+            background-color: #f56b88;
+            border: none;
+            color: rgba(238,57,103,1);
+            font-size: 16px;
+            padding-left: 15px;
+        }
+        ::placeholder {
+            color: rgba(238,57,103,1);
+            opacity: 1;
+        }
+        .button {
+            height: 100%;
+            width: 167px;
+            background-color: #fff;
+            color: #ee4367;
+            font-family: GillSansReg;
+            text-align: center;
+            padding-top: 20px;
+            font-size: 16px;
+        }
+    }
+    .socials {
+        //margin-left: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        //background-color: gray;
+
+        .icons {
+            width: 32px;
+            height: 32px;
+        }
+    }
+    .copyright {
+        width: 100%;
+        color: #fff;
+        padding-top: 10px;
+        text-align: center;
+    }
+}

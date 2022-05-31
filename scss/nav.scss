@@ -1,0 +1,41 @@
+.nav-wrapper {
+  //  background-color: red;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    nav {
+        max-width: 980px;
+        height: 90px;
+        margin: 0 auto;
+        border-bottom: solid 2px #ffff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        position: relative;
+        width: 92px;
+        height: 42px;
+        background-image: url(../images/logo-white.png);
+    }
+    .links {
+        width: 350px;
+        display: flex;
+        justify-content: space-around;
+        a {
+            text-decoration: none;
+            color: #ffff;
+        }
+        span {
+            color: #ee4367;
+        }
+    }
+}
+
+@media only all and (max-width:980px){
+    .nav-wrapper {
+        nav {
+            padding: 0 30px;
+        }
+    }
+}
